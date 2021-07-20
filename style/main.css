@@ -1,0 +1,62 @@
+ :root{
+     --vermelho: #E50914;
+     --preto: #141414;
+ }
+ 
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: var(--preto);
+     font-family: 'Times New Roman', Times, serif;
+     color: #fefefe;
+ }
+
+ header .container-menu {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ header .logo {
+     color: var(--vermelho);
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 45px;
+     margin: 20px 0 20px 20px;
+ }
+
+ header nav a {
+     text-decoration: none;
+     color: #aaa;  
+     margin-right: 10px;
+         
+ }
+
+ header nav a:hover {
+     color: #fff;
+ }
+
+ .documentario-bimba {
+     font-size: 16px;
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))100%, url('../img/filmeBimba2.png');
+     height: 400px;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+ }
+
+ .documentario-bimba .sinopse {
+     width: 60%;
+     margin-bottom: 90px;
+ }
+
+ .titulo {
+     font-size: 45px;
+
+ } 
