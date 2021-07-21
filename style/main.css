@@ -45,7 +45,7 @@
  .documentario-bimba {
      font-size: 16px;
      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5))100%, url('../img/filmeBimba2.png');
-     height: 400px;
+     height: 500px;
      background-size: cover;
      display: flex;
      flex-direction: column;
@@ -84,12 +84,30 @@
 
  .botao i {
      margin-right: 10px; 
-    
+  
 }
 
 .container-documentario {
     width: 60%;
     margin-left: 60px;
-
-
 }
+
+.carrosel-filmes {
+    margin-top: 10px;
+}
+
+.box-filme {
+    width: 100px;
+}
+
+.owl-carousel owl-theme {
+    width: 50%
+}
+
+/* .box.filme{
+    height: 50%;
+    width: 200px;
+    display: inline-block; 
+} */
+
+
