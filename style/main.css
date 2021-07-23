@@ -34,8 +34,11 @@
  header nav a {
      text-decoration: none;
      color: #aaa;  
-     margin-right: 10px;
-         
+     margin-right: 10px;     
+ }
+
+ header nav a:last-child {
+     margin-right: 0;
  }
 
  header nav a:hover {
@@ -110,6 +113,11 @@
         flex-direction: column;
         align-items: center;
         margin-bottom: 15px;
+        margin-right: 0;
+    }
+
+    header .logo { 
+        margin: 20px 0;
     }
 
     .link-menu {
@@ -128,13 +136,14 @@
     }
     
     .documentario-bimba .sinopse {
-        width: 100%;
-        text-align: justify;
-        margin: 0 0 0 0;
+        width: 90%;
+        text-align: centergit;
+        margin: 0 auto;
     }
 
     .titulo {
         font-size: 25px;
+        margin-bottom: 15px;
     }
 
     .botoes {
@@ -145,23 +154,6 @@
     .botao {
         justify-content: space-between;
     }
-    /* .botao{
-        margin-top: 5px;    
-        width: 300px;
-    }*/
-
-
-
-    /* .container-documentario {
-        width: 90%;
-
-    } */
-
-
-    /* .sinopse {
-        width: 95%;
-        margin: 30px 30px ;
-    } */
 
 
 }
